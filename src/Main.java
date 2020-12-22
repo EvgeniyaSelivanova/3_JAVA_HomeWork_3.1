@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        float cost_ticket=10500.45F;
-        int miles_equivalent=20;
-        if (cost_ticket>0) {
-            float quantity_miles = cost_ticket/miles_equivalent;
-            int miles=(int)quantity_miles;
+        float ticket=10500.42F;
+        int equivalent=20;
+        if (ticket>0) {
+            int miles=(int)ticket/equivalent;
             System.out.println(miles);}
         else {
             System.out.println("Wrong cost ticket");
